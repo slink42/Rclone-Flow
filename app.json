@@ -7,8 +7,8 @@
         "Rclone",
         "web-gui"
     ],
-    "website": "https://github.com/sentinm",
-    "repository": "https://github.com/sentinm/Rclone-Flow",
+    "website": "https://github.com/sdise",
+    "repository": "https://github.com/sdise/clone-Flow",
     "success_url": "",
     "stack": "container",
     "env": {
