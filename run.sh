@@ -13,5 +13,5 @@ rclone rcd --rc-web-gui \
   --rc-addr 0.0.0.0:$PORT \
   --rc-user $USERNAME \
   --rc-pass $PASSWORD \
-  --rc-allow-origin "https://elonh.github.io"
+  --rc-allow-origin "https://rclone.github.io"
 echo "[INFO] Rclone started!"
