@@ -16,8 +16,12 @@ RUN apt-get update
 RUN apt-get install curl git unzip zip -y
 
 RUN curl -sL https://rclone.org/install.sh | bash
-RUN curl -sL https://raw.githubusercontent.com/rclone/rclone-webui-react/master/webui.sh | bash
 RUN rclone version
+
+ RUN git clone https://github.com/rclone/rclone-webui-react.git \
+    &&     cd rclone-webui-react &&     npm install &&     npm run build  &&  \
+    cd ..
+
 
 ADD run.sh /app/
 RUN chmod a+x /app/run.sh

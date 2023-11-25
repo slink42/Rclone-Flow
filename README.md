@@ -16,8 +16,8 @@
 
 - Just click the specific deploy button, continue the process as given.
 
-<p align=center><a href="https://render.com/deploy?repo=https://github.com/sentinm/Rclone-Flow"><img src="https://render.com/images/deploy-to-render-button.svg" width="200"></a></p>
-<p align=center><a href="https://heroku.com/deploy?template=https://github.com/sentinm/Rclone-Flow/"><img src="https://www.herokucdn.com/deploy/button.svg" width="200"></a></p>
+<p align=center><a href="https://render.com/deploy?repo=https://github.com/slink42/Rclone-Flow"><img src="https://render.com/images/deploy-to-render-button.svg" width="200"></a></p>
+<p align=center><a href="https://heroku.com/deploy?template=https://github.com/slink42/Rclone-Flow/"><img src="https://www.herokucdn.com/deploy/button.svg" width="200"></a></p>
 <p align=center><a href="https://railway.app/new/template/lmBc3q"><img src="https://railway.app/button.svg" width="200"></a></p>
 
 # Notes
