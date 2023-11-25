@@ -13,6 +13,5 @@ rclone rcd --rc-web-gui \
   --rc-addr 0.0.0.0:$PORT \
   --rc-user $USERNAME \
   --rc-pass $PASSWORD \
-  --rc-web-gui-update \
-  --rc-web-fetch-url http://api.github.com/repos/rclone/rclone-webui-react/releases/latest
+  --rc-web-gui-update
 echo "[INFO] Rclone started!"
