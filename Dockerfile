@@ -18,7 +18,11 @@ RUN apt-get install curl git unzip zip -y
 RUN curl -sL https://rclone.org/install.sh | bash
 RUN rclone version
 
-RUN curl -sL https://github.com/rclone/rclone-webui-react/releases/download/v2.0.5/currentbuild.zip -o  ~/.cache/rclone/webgui/currentbuild.zip
+RUN curl -sL https://github.com/rclone/rclone-webui-react/releases/download/v2.0.5/currentbuild.zip -o  currentbuild.zip \
+    && mkdir -p /cache/webgui/current/ \
+    && unzip currentbuild.zip -d /cache/webgui/current/ \
+    && echo "v2.0.5" > /cache/webgui/tag \
+    && rm currentbuild.zip
 
 
 ADD run.sh /app/

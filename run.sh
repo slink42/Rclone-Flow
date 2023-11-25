@@ -11,6 +11,7 @@ echo "[INFO] Starting Rclone"
 rclone rcd --rc-web-gui \
   --rc-web-gui-no-open-browser\
   --rc-allow-origin "https://rclone.github.io" \
+  --rc-web-fetch-url "https://api.github.com/repos/rclone/rclone-webui-react/releases/latest" \
   --rc-web-gui-update \
   --rc-addr 0.0.0.0:$PORT \
   --rc-user $USERNAME \
