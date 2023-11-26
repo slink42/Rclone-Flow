@@ -4,6 +4,8 @@ WORKDIR /app
 
 ENV USERNAME=admin
 ENV PASSWORD=admin
+ENV SERVE_REMOTE=
+ENV SERVE_PROTOCOL=http
 ENV CONF_BASE64="" 
 ENV RCLONE_CONFIG=/app/.config/rclone.conf
 
